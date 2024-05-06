@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <section>
+        <nav id="navbar" class="bg-black bg-opacity-50 backdrop-filter backdrop-blur-md border-gray-200 dark:bg-gray-900 fixed inset-x-0 top-0 z-50">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FERTILTECH</span>
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <button type="button"
+                            onclick="window.location.href = '/inicio.php';"
+                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">INICIAR</button>
+
+                    <button id="menuToggle" data-collapse-toggle="navbar-cta" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-cta" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div
+                    class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 md:flex-row-reverse md:space-x-reverse"
+                    id="navbar-cta">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#INICIO"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                aria-current="page">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="#RESERVA"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">RESERVA</a>
+                        </li>
+                        <li>
+                            <a href="#ESTADISTICAS"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">ESTADISTICAS</a>
+                        </li>
+                        <li>
+                            <a href="#CONTACTO"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <div class="py-8"></div>
+
+    <section class="bg-white border-gray-200 bg-center bg-cover h-auto" style="background-image: url('https://img.freepik.com/foto-gratis/dos-hojas-monastera-sobre-fondo-negro_23-2147835077.jpg?w=1480&t=st=1713575680~exp=1713576280~hmac=061f907f6b7a6b6148917ef4438269befcd47f38a2eccce02e8c1dad3dfc4d61');">
+        <div class="text-white ml-12 mr-12 sm:w-5/5 md:w-3/5 lg:w-2/5 py-28 md:py-40 lg:py-56">
+            <h4 class="text-4xl ">CONOCE TU TIERRA</h4>
+            <h2 class="text-8xl font-bold my-3">CULTIVA CON CERTEZA</h2>
+            <p class="text-3xl">En Fertiltech, creemos en el poder del conocimiento para impulsar una agricultura más sostenible y productiva</p>
+            <button class="bg-blue-700 hover:bg-blue-800 text-white py-5 my-9 font-bold text-2xl px-20 rounded-3xl transition-colors">DESCÚBRELO</button>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="INICIO" class="bg-black text-white font-sans py-32">
+        <div class="items-center mt-16 mb-20">
+            <div class="text-4xl font-bold mx-5 lg:mx-32 flex">
+                <span class="text-blue-400 mr-2">"</span>
+                <h1>
+                    Nuestra plataforma proporciona datos precisos sobre el pH, humedad y radiación solar de tu tierra, permitiéndote conocerla profundamente. Con esta información en tus manos, puedes cultivar con certeza
+                </h1>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto p-6 font-bold">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 space-y-6">
+                    <p class="text-zinc-400 text-xl">
+                        Un estudio reciente realizado en campos de maíz en diferentes regiones agrícolas encontró que un pH del suelo por debajo de 6.0 redujo significativamente el rendimiento del cultivo en un promedio del
+                    </p>
+                    <div class="text-blue-400 text-6xl font-bold">20%</div>
+                    <p class="text-zinc-400 text-xl">
+                        en comparación con suelos con un pH óptimo de 6.5 a 7.0. Esto resalta la importancia crítica de mantener un pH adecuado en el suelo para maximizar la productividad agrícola y la rentabilidad de los cultivos.
+                    </p>
+                    <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-5 my-9 text-2xl px-20 rounded-3xl transition-colors">REGÍSTRATE AHORA</button>
+                </div>
+                <div class="lg:w-1/2 flex justify-center mt-10 lg:mt-0">
+                    <img src="https://us.123rf.com/450wm/vectorv/vectorv2111/vectorv211110507/177324915-icono-de-sensor-de-l%C3%ADnea-de-ne%C3%B3n-brillante-aislado-sobre-fondo-negro-concepto-de-contorno-colorido.jpg" alt="Agriculture Tools" class="max-w-xs lg:max-w-lg rounded-3xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section id="RESERVA" class="bg-black text-white py-32">
+        <div class="bg-black text-white p-10 mt-20">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-32">
+                    <div class="flex items-center h-full">
+                        <div class="flex flex-col items-center">
+                            <h1 class="text-7xl font-bold mb-6">Utilizamos herramientas que se acomodan a todos los bolsillos</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="flex items-center mb-12">
+                                <img src="https://static-00.iconduck.com/assets.00/arduino-ide-icon-2048x2025-x4ims8sb.png" alt="Arduino" class="w-16 h-16 mr-4 rounded-md">
+                                <div>
+                                    <h2 class="text-xl font-semibold">ARDUINO</h2>
+                                    <p>Plataforma flexible de prototipado electrónico con amplia comunidad.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center mb-12">
+                                <img src="https://pbs.twimg.com/profile_images/863510403120222208/rjVOiTe3_400x400.jpg" alt="Modulo ESP32" class="w-16 h-16 mr-4 rounded-md">rounded-3xl
+                                <div>
+                                    <h2 class="text-xl font-semibold">MODULO ESP32</h2>
+                                    <p>Microcontrolador con Wi-Fi/Bluetooth integrados, ideal para proyectos IoT.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center mb-12">
+                                <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/s46c23316fd696b31/image/i9a2e7ceb5c3fe919/version/1607445861/image.png" alt="Sensor PH" class="w-16 h-16 mr-4 rounded-md">
+                                <div>
+                                    <h2 class="text-xl font-semibold">SENSOR PH</h2>
+                                    <p>Evalúa acidez o alcalinidad, esencial para salud vegetal.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center mb-12">
+                                <img src="https://static.vecteezy.com/system/resources/previews/008/144/096/original/light-sensor-color-icon-illustration-color-vector.jpg" alt="Sensor Luz" class="w-16 h-16 mr-4 rounded-3xl">
+
+                                <div>
+                                    <h2 class="text-xl font-semibold">SENSOR LUZ</h2>
+                                    <p>Captura la intensidad lumínica para análisis ambiental preciso.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center">
+                                <img src="https://www.cometsystem.es/userfiles/image/features/picto_dp-calcul.jpg" alt="Sensor Humedad" class="w-16 h-16 mr-4 rounded-md">
+                                <div>
+                                    <h2 class="text-xl font-semibold">SENSOR HUMEDAD</h2>
+                                    <p>Mide contenido de agua en el suelo para cultivos.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ESTADISTICAS" class="bg-black py-32">
+        <div class="flex flex-col items-center justify-center bg-black text-white p-4 mt-20">
+            <img src="https://us.123rf.com/450wm/fillvector/fillvector2107/fillvector210711169/172061954-l%C3%ADnea-de-ne%C3%B3n-brillante-icono-de-instrumento-de-medici%C3%B3n-el%C3%A9ctrica-aislado-sobre-fondo-negro.jpg" alt="Logo" class="mb-14 max-w-52 rounded-3xl">
+            <h1 class="text-7xl font-bold text-center sm:mx-12 lg:mx-96">Reserva tu dispositivo de medición ahora</h1>
+            <p class="text-2xl  mb-12 w-auto text-center mt-12 sm:mx-12 lg:mx-96">
+                Asegura que puedas beneficiarte de precios preferenciales y promociones exclusivas antes del lanzamiento oficial. ¡No te pierdas la oportunidad de cultivar con certeza desde el principio!
+            </p>
+            <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-5 my-9 text-2xl px-20 rounded-3xl transition-colors">RESERVAR</button>
+        </div>
+    </section>
+
+    <section id="CONTACTO" class="bg-black text-white p-8 py-32">
+        <div class="text-center mt-20">
+            <h1 class="text-6xl font-bold mb-12">CONTACTO</h1>
+            <p class="mb-20 text-2xl sm:mx-32 lg:mx-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a enim nec nisl ullamcorper eleifend. Praesent risus leo, fringilla et nulla at, egestas euismod orci.</p>        
+        </div>
+        <div>
+            <div class="max-w-4xl text-xl mx-auto flex flex-col md:flex-row justify-between">
+                <div class="md:w-1/2 mb-8 md:mb-0 mr-12">
+                    <p class="mb-12 text-2xl">Utiliza las siguientes vías de contacto, o rellena el formulario.</p>
+                    <p class="mb-1"><strong>Vía E-mail</strong></p>
+                    <p class="mb-4">
+                        <a href="" class="text-blue-500 underline">hola@unsitiogenial.es</a>
+                    </p>
+                    <p class="mb-1"><strong>En nuestras redes sociales</strong></p>
+                    <p class="mb-4">
+                        <a href="" class="text-blue-500 underline">@unsitiogenial.es</a>
+                    </p>
+                    <p class="mb-1"><strong>Por teléfono</strong></p>
+                    <p class="mb-4">
+                        <a href="" class="text-blue-500 underline">91-1234-567</a>
+                    </p>
+                </div>
+                <div class="md:w-1/2 rounded-3xl">
+                    <form action="#" method="POST">
+                        <input type="text" placeholder="Escribe tu nombre" class="w-full p-3 mb-4 bg-zinc-800 rounded">
+                        <input type="email" placeholder="Escribe tu e-mail" class="w-full p-3 mb-4 bg-zinc-800 rounded">
+                        <input type="tel" placeholder="Escribe tu teléfono (Opcional)" class="w-full p-3 mb-4 bg-zinc-800 rounded">
+                        <textarea placeholder="Escribe tu mensaje" class="w-full p-3 mb-4 bg-zinc-800 rounded" rows="4"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+            <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-5 my-9 text-2xl px-20 rounded-3xl transition-colors">ENVIAR MENSAJE</button>
+        </div>
+    </section>
+
+    <section class="bg-black text-white p-8 py-32">
+        <div class="flex flex-col items-center justify-center">
+            <div class="text-center mb-12">
+                <h1 class="text-6xl font-bold mb-12">REDES SOCIALES</h1>
+                <p class="mb-20 text-2xl sm:mx-32 lg:mx-80 mx-9">Contactenos a nuestras redes sociales para poder tener una comunicacion mas directa</p>
+            </div>
+            <div class="space-y-6 mb-12">
+                <div class="flex items-center space-x-4">
+                    <img src="https://cdn-icons-png.flaticon.com/256/3536/3536445.png" alt="WhatsApp" class="w-12 h-12 rounded-full">
+                    <a href="" class="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-3xl transition-colors">ENVIAR MENSAJE</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <img src="https://cdn-icons-png.flaticon.com/256/124/124010.png" alt="Facebook" class="w-12 h-12 rounded-full">
+                    <a href="" class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-3xl transition-colors">ENVIAR MENSAJE</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <img src="https://images.vexels.com/media/users/3/140138/isolated/preview/88e50689fa3280c748d000aaf0bad480-icono-de-ronda-de-correo-electronico-1.png" alt="Email" class="w-12 h-12 rounded-full">
+                    <a href="" class="bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded-3xl transition-colors">ENVIAR MENSAJE</a>
+                </div>
+            </div>
+            <div class="text-center text-lg mt-12 text-zinc-400 mb-20">
+                <p>2023 - Estudio shonos - Política de Privacidad</p>
+                <p>2023 - Estudio shonos - Política de Privacidad</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function () {
+            const navbar = document.getElementById('navbar-cta');
+            navbar.classList.toggle('hidden');
+        });
+    </script>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 0) {
+                navbar.classList.remove('bg-opacity-50');
+                navbar.classList.add('bg-opacity-75');
+            } else {
+                navbar.classList.remove('bg-opacity-75');
+                navbar.classList.add('bg-opacity-50');
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const links = document.querySelectorAll('nav a');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

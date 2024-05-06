@@ -1,0 +1,102 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #374151;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mensaje {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;        
+    max-width: 50%;
+}
+
+.mensaje-usuario {
+    background-color: #dcf8c6;
+    
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 20px;
+    width: auto;
+}
+
+.mensaje-chatbot {
+    background-color: #2684fc;
+    align-self: flex-start;
+    text-align: left;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#mensajes {
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+#consulta {
+    width: auto;
+    flex-grow: 1;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#botonConsulta {
+    display: block;
+    width: 140px;
+    margin-left: 10px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botonConsulta:hover {
+    background-color: #0056b3;
+}
